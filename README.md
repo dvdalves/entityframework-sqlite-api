@@ -4,7 +4,7 @@ This is a simple CRUD (Create, Read, Update, Delete) API developed in .NET for s
 
 ## Technologies Used
 
-* .NET 8
+* .NET 9
 * ASP.NET WebAPI
 * Entity Framework Core
 * SQLite
