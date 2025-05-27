@@ -1,34 +1,34 @@
-# API CRUD com SQLite
+# CRUD API with SQLite
 
-Esta é uma simples API CRUD (Create, Read, Update, Delete) desenvolvida em .NET para fins de estudo. A API utiliza o banco de dados SQLite para armazenar os dados das pessoas.
+This is a simple CRUD (Create, Read, Update, Delete) API developed in .NET for study purposes. The API uses the SQLite database to store person records.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- .NET 8
-- ASP.NET WebAPI
-- Entity Framework Core
-- SQLite
+* .NET 8
+* ASP.NET WebAPI
+* Entity Framework Core
+* SQLite
 
-## Funcionalidades
+## Features
 
-A API oferece as seguintes funcionalidades:
+The API provides the following features:
 
-- Listar todas as pessoas cadastradas.
-- Obter os detalhes de uma pessoa específica pelo seu ID.
-- Adicionar uma nova pessoa.
-- Atualizar os dados de uma pessoa existente.
-- Excluir uma pessoa.
+* List all registered people
+* Retrieve details of a specific person by their ID
+* Add a new person
+* Update an existing person's data
+* Delete a person
 
-## Configuração do Banco de Dados
+## Database Configuration
 
-O banco de dados utilizado é o SQLite, um banco de dados leve e de fácil configuração. A configuração da string de conexão com o banco de dados está no arquivo `appsettings.json`.
+The database used is SQLite, a lightweight and easy-to-configure database. The connection string is located in the `appsettings.json` file.
 
-## Executando o Projeto
+## Running the Project
 
-Para executar o projeto localmente, siga estas etapas:
+To run the project locally, follow these steps:
 
-1. Certifique-se de ter o SDK do .NET Core instalado em sua máquina.
-2. Clone este repositório em sua máquina local.
-3. Abra o projeto em seu ambiente de desenvolvimento preferido (por exemplo, Visual Studio, Visual Studio Code).
-4. Configure a string de conexão com o banco de dados no arquivo `appsettings.json`, se necessário.
-5. Execute a aplicação.
+1. Make sure you have the .NET Core SDK installed on your machine.
+2. Clone this repository to your local machine.
+3. Open the project in your preferred development environment (e.g., Visual Studio, Visual Studio Code).
+4. Configure the connection string in the `appsettings.json` file, if necessary.
+5. Run the application.
